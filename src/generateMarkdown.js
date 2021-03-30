@@ -13,6 +13,14 @@ const generateTableOfContents = tableOfContentsText => {
     tableOfContents += `[Acknowledgment](#Acknowledgement)
 `
   };
+  if (tableOfContentsText.contribution) {
+    tableOfContents += `[Contributions](#Contributions)
+`
+  };
+  if (tableOfContentsText.test) {
+    tableOfContents += `[Testing](#Testing)
+`
+  }
   return tableOfContents;
 };
 // TODO: Create a function that returns a license badge based on which license is passed in
@@ -51,36 +59,33 @@ const generateAcknowledgment = acknowledgmentText => {
   if (!acknowledgmentText) {
     return '';
   }
-  return `
-  ## Acknowledgments
+  return `## Acknowledgments
 ${acknowledgmentText}
 
   `;
 };
 
 // generate contribution section if user wanted to include one
-// const generateContribution = contributionText => {
-//   if (!contributionText) {
-//     return '';
-//   }
-//   return `
-//   ## Contribution
-  
-//   ${contributionText}
-//   `;
-// };
+const generateContribution = contributionText => {
+  if (!contributionText) {
+    return '';
+  }
+  return `## Contributions
+${contributionText}
+
+  `;
+};
 
 // generate testing section if user wanted to include one
-// const generateTesting = testText => {
-//   if (!testText) {
-//     return '';
-//   }
-//   return `
-//   ## Testing
-  
-//   ${testText}
-//   `;
-// };
+const generateTesting = testText => {
+  if (!testText) {
+    return '';
+  }
+  return `## Testing
+${testText}
+
+  `;
+};
 
 // TODO: Create a function to generate markdown for README
 const generateMarkdown = data => {
@@ -94,23 +99,10 @@ ${data.description}
 ${generateTableOfContents(data)}
 ${generateInstallation(data.installation)}
 ${generateUsage(data.usage)}
-${generateAcknowledgment(data.acknowledgment)}`
+${generateAcknowledgment(data.acknowledgment)}
+${generateContribution(data.contribution)}
+${generateTesting(data.test)}`
 };
 
-
-
-  
-
-
-
-//   ${generateContribution()}
-
-//   ${generateTesting()}
-
-// ;
-
-
-
-// ${generateTableContents(contents)}
 // ${generatelicenseSection(lisence)}
 module.exports = generateMarkdown;
