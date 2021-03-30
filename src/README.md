@@ -1,32 +1,37 @@
 
-# this again
+# megan
 
 ## Description
-this again
+megan
 
 ## Table of Contents
-[Installation](#Installation)
-[Usage](#Usage)
-[Acknowledgment](#Acknowledgement)
-[Contributions](#Contributions)
-    [Testing](#Testing)
+* [Installation](#Installation)
+* [Usage](#Usage)
+* [Acknowledgments](#Acknowledgments)
+* [Contributions](#Contributions)
+* [Testing](#Testing)
+* [Questions](#Questions)
+
 ## Installation
-this again
+megan
 
   
 ## Usage
-this again
+megan
 
   
 ## Acknowledgments
-this again
+megan
 
   
 ## Contributions
-this again
+megan
 
   
 ## Testing
-this again
+megan
 
   
+## Questions
+Check out my GitHub Profile [here](https://github.com/megan) 
+Please email me with any questions or comments: <megan>
