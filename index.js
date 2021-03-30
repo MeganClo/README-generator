@@ -130,7 +130,21 @@ const promptUser = () => {
 };
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+const writeToFile = data => {
+    return new Promise((resolve, reject) => {
+        fs.writeFile("./src/README.md", data, err => {
+            if (err) {
+                reject(err);
+                return;
+            }
+
+            resolve({
+                ok: true,
+                message: "File Created!"
+            });
+        }); 
+    });
+};
 
 // TODO: Create a function to initialize app
 function init() {}
@@ -143,4 +157,10 @@ console.log("node working!");
 promptUser()
 .then(data => {
     return generateMarkdown(data)
+})
+.then(readMePage => {
+    return writeToFile(readMePage);
+})
+.catch(err => {
+    console.log(err);
 });
