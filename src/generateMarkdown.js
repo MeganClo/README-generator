@@ -1,15 +1,20 @@
-// let tableOfContents = ``;
-// const generateTableOfContents = tableOfContentsText => {
-//   if (tableOfContentsText.installation) {
-//     tableOfContents += `[Installation](#Installation)
-//     `;
-//   };
-//   if (tableOfContentsText.usage) {
-//     tableOfContents += `[Usage](#Usage)
-//     `
-//   };
-//   return tableOfContents;
-// };
+let tableOfContents = `## Table of Contents
+`;
+const generateTableOfContents = tableOfContentsText => {
+  if (tableOfContentsText.installation) {
+    tableOfContents += `[Installation](#Installation)
+`;
+  };
+  if (tableOfContentsText.usage) {
+    tableOfContents += `[Usage](#Usage)
+`
+  };
+  if (tableOfContentsText.acknowledgment) {
+    tableOfContents += `[Acknowledgment](#Acknowledgement)
+`
+  };
+  return tableOfContents;
+};
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 // function renderLicenseBadge(license) {}
@@ -24,36 +29,34 @@ const generateInstallation = installationText => {
     if (!installationText) {
     return '';
   }
-  return `
-  ## Installation
-  ${installationText}
+  return `## Installation
+${installationText}
 
   `;
 };
 
 // generating the usage section if user wanted to include one
-// const generateUsage = usageText => {
-//   if (!usageText) {
-//     return '';
-//   }
-//   return `
-//   ## Usage
-//   ${usageText}
+const generateUsage = usageText => {
+  if (!usageText) {
+    return '';
+  }
+  return `## Usage
+${usageText}
 
-//   `;
-// };
+  `;
+};
 
 // generate Acknowledgment section if user wanted to include one
-// const generateAcknowledgment = (data) => {
-//   if (!data.acknowledgment) {
-//     return '';
-//   }
-//   return `
-//   ## Acknowledgments
-  
-//   ${data.acknowledgment}
-//   `;
-// };
+const generateAcknowledgment = acknowledgmentText => {
+  if (!acknowledgmentText) {
+    return '';
+  }
+  return `
+  ## Acknowledgments
+${acknowledgmentText}
+
+  `;
+};
 
 // generate contribution section if user wanted to include one
 // const generateContribution = contributionText => {
@@ -75,7 +78,7 @@ const generateInstallation = installationText => {
 //   return `
 //   ## Testing
   
-//   ${contributionText}
+//   ${testText}
 //   `;
 // };
 
@@ -83,19 +86,22 @@ const generateInstallation = installationText => {
 const generateMarkdown = data => {
   console.log(data, "line 76");
   return `
-  # ${data.title}
+# ${data.title}
 
-  ## Description
-  ${data.description}
+## Description
+${data.description}
 
-  ${generateInstallation(data.installation)}`
+${generateTableOfContents(data)}
+${generateInstallation(data.installation)}
+${generateUsage(data.usage)}
+${generateAcknowledgment(data.acknowledgment)}`
 };
 
-  // ${generateUsage(data.usage)}
 
-//   ${generateAcknowledgment()}
 
-// ${generateTableOfContents(data)}
+  
+
+
 
 //   ${generateContribution()}
 
