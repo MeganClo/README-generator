@@ -38,7 +38,8 @@ Fork and clone the repository, make changes, push to their forked branch, make a
 Get the source code and test it. 
 
   
-## License-Information :label:
+## License-Information
+:label:
   * The MIT License
   
 ## Questions 
