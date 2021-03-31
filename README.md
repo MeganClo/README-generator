@@ -9,7 +9,8 @@ This is an application that will generate a professional README file using the u
 * [License-Information](#License-Information)
 * [Questions](#Questions)
 
-## Installation :clipboard:
+## Installation 
+:clipboard:
 To install this application and necessary tools follow these steps:
 1. Install Node.js
 2. Clone this repository to somewhere on your hard drive. 
@@ -21,7 +22,7 @@ To install this application and necessary tools follow these steps:
 To use this application to easily create a professional README file, simply type "node index" while making sure you're in the correct directory. Answer the prompts, and when the prompts are finished, a README file will be created in the "dist" directory. If one already existed it will overwrite that file.
 
 
-## License-Information :label:
+## License-Information 
   * The MIT License
   
 ## Questions :mailbox:

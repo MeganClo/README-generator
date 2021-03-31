@@ -123,7 +123,6 @@ ${testText}
 const generateLicenseSection = possibleLicense => {
   if (possibleLicense.length > 0) {
     return `## License-Information 
-:label:
   ${possibleLicense.map((license) => {
     return `* ${license}
 `

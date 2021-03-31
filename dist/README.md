@@ -39,7 +39,6 @@ Get the source code and test it.
 
   
 ## License-Information
-:label:
   * The MIT License
   
 ## Questions 
