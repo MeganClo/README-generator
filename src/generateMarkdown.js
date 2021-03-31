@@ -46,12 +46,24 @@ const renderLicenseBadge = possibleLicenseArr => {
     }
     if (possibleLicenseArr.includes("BSD")) {
       badge.push("[![License](https://img.shields.io/badge/License-BSD%202--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause)")
+    }
+    if (possibleLicenseArr.includes("The MIT License")) {
+      badge.push("[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)")
+    }
+    if (possibleLicenseArr.includes("Mozilla Public License")) {
+      badge.push("[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)")
+    }
+    if (possibleLicenseArr.includes("Open Database License")) {
+      badge.push("[![License: ODbL](https://img.shields.io/badge/License-ODbL-brightgreen.svg)](https://opendatacommons.org/licenses/odbl/)")
+    }
+    if (possibleLicenseArr.includes("GNU")) {
+      badge.push("[![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)")
     };
   } 
   console.log(badge);
   return `${badge.map((licenseBadge) => {
     return `${licenseBadge}`
-  }).join("")}`  
+  }).join("  ")}`  
 };
 
 // generating the installation section if user wanted to include one
@@ -93,7 +105,7 @@ ${contributionText}
 // generate testing section if user wanted to include one
 const generateTesting = testText => {
   if (testText) {
-    return `## Testing :lab_coat:
+    return `## Testing :glasses:
 ${testText}
 
   `};
