@@ -13,6 +13,8 @@ This application helps a user keep track of feeding schedules and litter box cle
 * [Questions](#Questions)
 
 ## Installation
+:clipboard:
+
 Installation instructions for this awesome cat application will go here. 
 
   
@@ -20,7 +22,9 @@ Installation instructions for this awesome cat application will go here.
 To use this application you simply need multiple cats, an internet connection, and the browser. 
 
   
-## Acknowledgments :trophy:
+## Acknowledgments 
+:trophy:
+
 Buzz was a contributor to this project. 
 
   
@@ -28,14 +32,18 @@ Buzz was a contributor to this project.
 Fork and clone the repository, make changes, push to their forked branch, make a pull request. 
 
   
-## Testing :eyeglasses:
+## Testing 
+:eyeglasses:
+
 Get the source code and test it. 
 
   
 ## License-Information :label:
   * The MIT License
   
-## Questions :mailbox:
+## Questions 
+:mailbox:
+
 Author: Megan Close
 
 Check out my GitHub Profile [here](https://github.com/MeganClo)
