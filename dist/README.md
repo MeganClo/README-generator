@@ -12,7 +12,7 @@ This application helps a user keep track of feeding schedules and litter box cle
 * [License-Information](#License-Information)
 * [Questions](#Questions)
 
-## Installation :clipboard:
+## Installation
 Installation instructions for this awesome cat application will go here. 
 
   

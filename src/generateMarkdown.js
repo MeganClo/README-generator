@@ -69,7 +69,8 @@ const renderLicenseBadge = possibleLicenseArr => {
 // generating the installation section if user wanted to include one, otherwise returning empty string
 const generateInstallation = installationText => {
     if (installationText) {
-      return `## Installation :clipboard:
+      return `## Installation 
+:clipboard:
 ${installationText}
 
   `}
@@ -89,7 +90,8 @@ ${usageText}
 // generate Acknowledgment section if user wanted to include one, otherwise returning empty string
 const generateAcknowledgment = acknowledgmentText => {
   if (acknowledgmentText) {
-    return `## Acknowledgments :trophy:
+    return `## Acknowledgments 
+:trophy:
 ${acknowledgmentText}
 
   `}
@@ -109,7 +111,8 @@ ${contributionText}
 // generate testing section if user wanted to include one, otherwise returning empty string
 const generateTesting = testText => {
   if (testText) {
-    return `## Testing :eyeglasses:
+    return `## Testing
+:eyeglasses:
 ${testText}
 
   `}
@@ -119,7 +122,8 @@ ${testText}
 // generating the license section if user wanted to include one and accounting for rare occasion where there are mutliple licenses
 const generateLicenseSection = possibleLicense => {
   if (possibleLicense.length > 0) {
-    return `## License-Information :label:
+    return `## License-Information 
+:label:
   ${possibleLicense.map((license) => {
     return `* ${license}
 `
@@ -144,7 +148,8 @@ ${generateAcknowledgment(data.acknowledgment)}
 ${generateContribution(data.contribution)}
 ${generateTesting(data.test)}
 ${generateLicenseSection(data.license)}
-## Questions :mailbox:
+## Questions 
+:mailbox:
 Author: ${data.author}
 
 Check out my GitHub Profile [here](https://github.com/${data.github})
