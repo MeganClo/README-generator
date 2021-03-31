@@ -7,6 +7,19 @@ const generateMarkdown = require('./src/generateMarkdown');
 const questions = [
     {
         type: 'input',
+        name: 'author',
+        message: 'Please enter your name. (Required)',
+        validate: authorInput => {
+            if (authorInput) {
+                return true;
+            } else {
+                console.log("You must enter your name.");
+                return false;
+            }
+        }
+    },
+    {
+        type: 'input',
         name: 'github',
         message: 'Please enter your GitHub user name. (Required)',
         validate: githubInput => {

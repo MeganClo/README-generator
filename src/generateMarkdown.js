@@ -139,6 +139,8 @@ ${generateContribution(data.contribution)}
 ${generateTesting(data.test)}
 ${generateLicenseSection(data.license)}
 ## Questions :mailbox:
+Author: ${data.author}
+
 Check out my GitHub Profile [here](https://github.com/${data.github})
 
 Please email me with any questions or comments: <${data.email}>`

@@ -1,7 +1,7 @@
-# PokemonBootcampBattles [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+# My Super Cool Project [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
-description here
+This is a phenomenal project that is sure to get full points from the equally awesome grader. 
 
 ## Table of Contents
 * [Installation](#Installation)
@@ -13,29 +13,31 @@ description here
 * [Questions](#Questions)
 
 ## Installation :clipboard:
-installation instructions
+installation information will go here
 
   
 ## Usage
-usage instructions
+there is some usage 
 
   
 ## Acknowledgments :trophy:
-people that helped me are tim, tanner, truett, and buzz. 
+the academy
 
   
 ## Contributions
-contributions here
+i love contributions
 
   
 ## Testing :glasses:
-test requirements are here
+testing instructions
 
   
 ## License-Information :label:
-  * Apache
+  * The MIT License
   
 ## Questions :mailbox:
+Author: Megan Close
+
 Check out my GitHub Profile [here](https://github.com/MeganClo)
 
 Please email me with any questions or comments: <megs.close@gmail.com>
