@@ -32,8 +32,8 @@ const generateTableOfContents = tableOfContentsText => {
 `
   return tableOfContents;
 };
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
+// TODO: Create a function that returns a license badge based on which license is passed
+// this accounts for those rare circumstances where there may be more than one license
 let badge = [];
 
 const renderLicenseBadge = possibleLicenseArr => {
@@ -60,13 +60,13 @@ const renderLicenseBadge = possibleLicenseArr => {
       badge.push("[![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)")
     };
   } 
-  console.log(badge);
+
   return `${badge.map((licenseBadge) => {
     return `${licenseBadge}`
   }).join("  ")}`  
 };
 
-// generating the installation section if user wanted to include one
+// generating the installation section if user wanted to include one, otherwise returning empty string
 const generateInstallation = installationText => {
     if (installationText) {
       return `## Installation :clipboard:
@@ -76,7 +76,7 @@ ${installationText}
   return "";
 };
 
-// generating the usage section if user wanted to include one
+// generating the usage section if user wanted to include one, otherwise returning empty string
 const generateUsage = usageText => {
   if (usageText) {
     return `## Usage
@@ -86,7 +86,7 @@ ${usageText}
   return "";
 };
 
-// generate Acknowledgment section if user wanted to include one
+// generate Acknowledgment section if user wanted to include one, otherwise returning empty string
 const generateAcknowledgment = acknowledgmentText => {
   if (acknowledgmentText) {
     return `## Acknowledgments :trophy:
@@ -96,7 +96,7 @@ ${acknowledgmentText}
   return "";
 };
 
-// generate contribution section if user wanted to include one
+// generate contribution section if user wanted to include one, otherwise returning empty string
 const generateContribution = contributionText => {
   if (contributionText) {
     return `## Contributions
@@ -106,7 +106,7 @@ ${contributionText}
   return "";
 };
 
-// generate testing section if user wanted to include one
+// generate testing section if user wanted to include one, otherwise returning empty string
 const generateTesting = testText => {
   if (testText) {
     return `## Testing :eyeglasses:
@@ -116,7 +116,7 @@ ${testText}
   return "";
 };
 
-// generating the license section if user wanted to include one and accounting for mutliple licenses
+// generating the license section if user wanted to include one and accounting for rare occasion where there are mutliple licenses
 const generateLicenseSection = possibleLicense => {
   if (possibleLicense.length > 0) {
     return `## License-Information :label:

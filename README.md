@@ -18,7 +18,7 @@ To install this application and necessary tools follow these steps:
 
   
 ## Usage
-To use this application to easily create a professional README.md file, simply type "node index" while making sure you're in the correct directory. Answer the prompts, and when the prompts are finished, a README.md file will be created in the dist directory. If one already existed it will overwrite that file.
+To use this application to easily create a professional README file, simply type "node index" while making sure you're in the correct directory. Answer the prompts, and when the prompts are finished, a README file will be created in the "dist" directory. If one already existed it will overwrite that file.
 
 
 ## License-Information :label:
