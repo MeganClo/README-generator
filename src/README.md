@@ -1,8 +1,8 @@
 
-# Pokemon Bootcamp Battles
+# Project name
 
 ## Description
-this is a super fun game that everyone will love to play. 
+description here
 
 ## Table of Contents
 * [Installation](#Installation)
@@ -10,19 +10,19 @@ this is a super fun game that everyone will love to play.
 * [Acknowledgments](#Acknowledgments)
 * [Contributions](#Contributions)
 * [Testing](#Testing)
-* [License Information](#License Information)
+* [License-Information](#License-Information)
 * [Questions](#Questions)
 
 ## Installation
-installation information here. 
+installation instructions here
 
   
 ## Usage
-usage information here
+usage here
 
   
 ## Acknowledgments
-acknowledgements here
+yay helpers
 
   
 ## Contributions
@@ -30,14 +30,14 @@ contributions here
 
   
 ## Testing
-instructions here
+testing here
 
   
-## License Information
+## License-Information
   * Apache
-* The MIT License
-* Open Database License
+* Boost Software License
+* Eclipse Public License
   
 ## Questions
-Check out my GitHub Profile [here](https://github.com/MeganClo) 
+Check out my GitHub Profile [here](https://github.com/Megan Clo) 
 Please email me with any questions or comments: <megs.close@gmail.com>

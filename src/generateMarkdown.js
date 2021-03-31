@@ -23,7 +23,7 @@ const generateTableOfContents = tableOfContentsText => {
 `
   };
   if (tableOfContentsText.license.length > 0) {
-    tableOfContents += `* [License Information](#License Information)
+    tableOfContents += `* [License-Information](#License-Information)
 `
   }
   tableOfContents += `* [Questions](#Questions)
@@ -86,7 +86,7 @@ ${testText}
 
 const generateLicenseSection = possibleLicense => {
   if (possibleLicense.length > 0) {
-    return `## License Information
+    return `## License-Information
   ${possibleLicense.map((license) => {
     return `* ${license}
 `
