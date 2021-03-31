@@ -145,7 +145,7 @@ const promptUser = () => {
 // TODO: Create a function to write README file
 const writeToFile = data => {
     return new Promise((resolve, reject) => {
-        fs.writeFile("./src/README.md", data, err => {
+        fs.writeFile("./dist/README.md", data, err => {
             if (err) {
                 reject(err);
                 return;
@@ -159,19 +159,12 @@ const writeToFile = data => {
     });
 };
 
-// TODO: Create a function to initialize app
-function init() {}
-
-// Function call to initialize app
-init();
-
-console.log("node working!");
-
 promptUser()
 .then(data => {
     return generateMarkdown(data)
 })
 .then(readMePage => {
+    console.log("README created!")
     return writeToFile(readMePage);
 })
 .catch(err => {

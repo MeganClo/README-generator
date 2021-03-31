@@ -72,7 +72,8 @@ const generateInstallation = installationText => {
       return `## Installation :clipboard:
 ${installationText}
 
-  `};
+  `}
+  return "";
 };
 
 // generating the usage section if user wanted to include one
@@ -81,7 +82,8 @@ const generateUsage = usageText => {
     return `## Usage
 ${usageText}
 
-  `};
+  `}
+  return "";
 };
 
 // generate Acknowledgment section if user wanted to include one
@@ -90,7 +92,8 @@ const generateAcknowledgment = acknowledgmentText => {
     return `## Acknowledgments :trophy:
 ${acknowledgmentText}
 
-  `};
+  `}
+  return "";
 };
 
 // generate contribution section if user wanted to include one
@@ -99,7 +102,8 @@ const generateContribution = contributionText => {
     return `## Contributions
 ${contributionText}
 
-  `};
+  `}
+  return "";
 };
 
 // generate testing section if user wanted to include one
@@ -108,7 +112,8 @@ const generateTesting = testText => {
     return `## Testing :eyeglasses:
 ${testText}
 
-  `};
+  `}
+  return "";
 };
 
 // generating the license section if user wanted to include one and accounting for mutliple licenses
@@ -120,7 +125,8 @@ const generateLicenseSection = possibleLicense => {
 `
 
   }).join("")}  `
-  };
+  }
+  return "";
 };
 
 // TODO: Create a function to generate markdown for README
