@@ -120,8 +120,8 @@ const questions = [
     {
         type: 'checkbox',
         name: 'license',
-        message: 'Please choose a license that your application is covered under.',
-        choices: ['APM', 'AUR license', 'Bower', 'Cocoapods', 'Conda - License', 'CPAN', 'CRAN/METACRAN', 'Crates.io', 'CTAN', 'DUB', 'Eclipse Marketplace', 'GitHub', 'Hex.pm', 'NPM', 'Ore License', 'Packagist License', 'PyPI', 'MIT']
+        message: 'Please choose a license (or licenses) that your application is covered under.',
+        choices: ['Apache', 'Boost Software License', 'Eclipse Public License', 'The MIT License', 'Mozilla Public License', 'Open Database License']
     },
 ];
 

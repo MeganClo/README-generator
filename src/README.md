@@ -1,8 +1,8 @@
 
-# megan
+# alkgjlejlki
 
 ## Description
-megan
+lakjlgkjelkjl;khlkja
 
 ## Table of Contents
 * [Installation](#Installation)
@@ -13,25 +13,29 @@ megan
 * [Questions](#Questions)
 
 ## Installation
-megan
+alkjlg
 
   
 ## Usage
-megan
+lakejoijgalaepoih
 
   
 ## Acknowledgments
-megan
+alkjgiejl
 
   
 ## Contributions
-megan
+nalkjciie
 
   
 ## Testing
-megan
+aljelj
 
   
+## License Information
+  Apache
+    ,Boost Software License
+      
 ## Questions
-Check out my GitHub Profile [here](https://github.com/megan) 
-Please email me with any questions or comments: <megan>
+Check out my GitHub Profile [here](https://github.com/lakgike) 
+Please email me with any questions or comments: <alkgjle>

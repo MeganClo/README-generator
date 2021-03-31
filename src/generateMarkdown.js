@@ -80,8 +80,19 @@ ${testText}
   `};
 };
 
+const generateLicenseSection = possibleLicense => {
+  if (possibleLicense.length > 0) {
+    return `## License Information
+  ${possibleLicense.map((license) => {
+    return `${license}
+`
+  })}  `
+  };
+};
+
 // TODO: Create a function to generate markdown for README
 const generateMarkdown = data => {
+  console.log(data);
   return `
 # ${data.title}
 
@@ -94,6 +105,7 @@ ${generateUsage(data.usage)}
 ${generateAcknowledgment(data.acknowledgment)}
 ${generateContribution(data.contribution)}
 ${generateTesting(data.test)}
+${generateLicenseSection(data.license)}
 ## Questions
 Check out my GitHub Profile [here](https://github.com/${data.github}) 
 Please email me with any questions or comments: <${data.email}>`
