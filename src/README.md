@@ -1,8 +1,8 @@
 
-# alkgjlejlki
+# Pokemon Bootcamp Battles
 
 ## Description
-lakjlgkjelkjl;khlkja
+this is a super fun game that everyone will love to play. 
 
 ## Table of Contents
 * [Installation](#Installation)
@@ -10,32 +10,34 @@ lakjlgkjelkjl;khlkja
 * [Acknowledgments](#Acknowledgments)
 * [Contributions](#Contributions)
 * [Testing](#Testing)
+* [License Information](#License Information)
 * [Questions](#Questions)
 
 ## Installation
-alkjlg
+installation information here. 
 
   
 ## Usage
-lakejoijgalaepoih
+usage information here
 
   
 ## Acknowledgments
-alkjgiejl
+acknowledgements here
 
   
 ## Contributions
-nalkjciie
+contributions here
 
   
 ## Testing
-aljelj
+instructions here
 
   
 ## License Information
-  Apache
-    ,Boost Software License
-      
+  * Apache
+* The MIT License
+* Open Database License
+  
 ## Questions
-Check out my GitHub Profile [here](https://github.com/lakgike) 
-Please email me with any questions or comments: <alkgjle>
+Check out my GitHub Profile [here](https://github.com/MeganClo) 
+Please email me with any questions or comments: <megs.close@gmail.com>
