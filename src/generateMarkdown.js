@@ -105,7 +105,7 @@ ${contributionText}
 // generate testing section if user wanted to include one
 const generateTesting = testText => {
   if (testText) {
-    return `## Testing :glasses:
+    return `## Testing :eyeglasses:
 ${testText}
 
   `};

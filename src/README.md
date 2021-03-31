@@ -1,23 +1,22 @@
-# My Super Cool Project [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# Amazing Project [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
-This is a phenomenal project that is sure to get full points from the equally awesome grader. 
+Project description will go here. 
 
 ## Table of Contents
 * [Installation](#Installation)
 * [Usage](#Usage)
 * [Acknowledgments](#Acknowledgments)
 * [Contributions](#Contributions)
-* [Testing](#Testing)
 * [License-Information](#License-Information)
 * [Questions](#Questions)
 
 ## Installation :clipboard:
-installation information will go here
+installation instructions
 
   
 ## Usage
-there is some usage 
+usage instructions
 
   
 ## Acknowledgments :trophy:
@@ -25,13 +24,10 @@ the academy
 
   
 ## Contributions
-i love contributions
+contributions here
 
   
-## Testing :glasses:
-testing instructions
-
-  
+undefined
 ## License-Information :label:
   * The MIT License
   
