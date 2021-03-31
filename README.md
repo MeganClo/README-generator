@@ -25,7 +25,8 @@ To use this application to easily create a professional README file, simply type
 ## License-Information 
   * The MIT License
   
-## Questions :mailbox:
+## Questions 
+:mailbox:
 Author: Megan Close
 
 Check out my GitHub Profile [here](https://github.com/MeganClo)
