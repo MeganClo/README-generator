@@ -16,6 +16,7 @@ To install this application and necessary tools follow these steps:
 2. Clone this repository to somewhere on your hard drive. 
 3. Using your command line, go into the directory you cloned the repository to. 
 4. In the command line type "npm install"
+5. Type "node index" in your command line to answer questions and generate your README. 
 
   
 ## Usage
